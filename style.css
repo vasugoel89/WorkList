@@ -1,3 +1,29 @@
-.body{
-    background-color: black;
+body{
+    background-color: rgba(0, 0, 0, 0.751);
+    color: beige;
+}
+.btn{
+    background-color: rgba(224, 188, 188, 0.814);
+    border-color: rgb(224, 188, 188);
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(224, 188, 188);
+    border-color: rgb(224, 188, 188);
+    color: brown;
+}
+.table{
+    background-color: hwb(0 14% 86% / 0.799);
+}
+#title{
+    background-color: hwb(0 14% 86% / 0.799);
+    color: white;
+}
+#description{
+  background-color: hwb(0 14% 86% / 0.799);
+  color: white;
+}
+.navbar{
+    background-color: #212121;
+    color: bisque;
 }
