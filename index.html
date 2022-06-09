@@ -11,9 +11,40 @@
     <title>ToDO <i class="fas fa-list-alt"></i></title>
   </head>
   <body>
+      <style>
+          body{
+              background-color: rgba(0, 0, 0, 0.751);
+              color: beige;
+          }
+          .btn{
+              background-color: rgba(224, 188, 188, 0.814);
+              border-color: rgb(224, 188, 188);
+              color: black;
+          }
+          .btn:hover{
+              background-color: rgb(224, 188, 188);
+              border-color: rgb(224, 188, 188);
+              color: brown;
+          }
+          .table{
+              background-color: hwb(0 14% 86% / 0.799);
+          }
+          #title{
+              background-color: hwb(0 14% 86% / 0.799);
+              color: white;
+          }
+          #description{
+            background-color: hwb(0 14% 86% / 0.799);
+            color: white;
+          }
+          .navbar{
+              background-color: #212121;
+              color: bisque;
+          }
+      </style>
 
 
-    <nav class="navbar bg-light">
+    <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand">TODO List</a>
           <form class="d-flex" role="search">
@@ -26,7 +57,7 @@
       <div class="container my-4">
           <h2>My TODO List</h2>
                                                                    <!-- TITLE BOX -->
-            <div class="mb-3">
+            <div class="mb-3" class="title">
               <label for="title">Title</label>
               <input type="text" class="form-control" id="title">
               <small id="emailHelp" class="form-text text-muted">Add an item to the list..</small>
@@ -48,7 +79,7 @@
 
           <div id="items" class="my-4">
               <h2>Your items</h2>
-              <table class="table">
+              <table class="table table-dark table-striped-columns">
                     <thead>
                       <tr>
                         <th scope="col">S.No</th>
